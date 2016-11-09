@@ -20,11 +20,45 @@ p {
 }
 
 /*========Section Home====================*/
-#home .page-header {
+#section-home .page-header {
   border-bottom: 1px solid #1C1C1C;
   text-shadow: 0px 5px 5px #1C1C1C;
 }
 
-#home {
+#section-home {
   color: #1C1C1C;
+}
+
+/*=======Section Knowledge================*/
+#section-knowledge .page-header {
+  border-bottom: 1px solid #1C1C1C;
+  text-shadow: 0px 5px 5px #1C1C1C;
+}
+
+#section-knowledge {
+  color: #1C1C1C;
+}
+
+/*========Section Portfolio===============*/
+#section-portfolio .page-header {
+  border-bottom: 1px solid #1C1C1C;
+  text-shadow: 0px 5px 5px #1C1C1C;
+}
+
+#section-portfolio {
+  color: #1C1C1C;
+}
+
+#section-portfolio .thumbnail {
+  margin-right: 1%;
+}
+
+#section-portfolio img {
+  height: 130px;
+}
+
+/*=============Section Contact===============*/
+#section-contact .page-header {
+  border-bottom: 1px solid #1C1C1C;
+  text-shadow: 0px 5px 5px #1C1C1C;
 }

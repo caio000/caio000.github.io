@@ -2,168 +2,15 @@
 <html>
 <head>
 
-  <script type="text/javascript">
-    
-  </script>
-
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <title>Caio de Freitas Adriano</title>
 
-  <!-- Bootstrap Core CSS -->
-  <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
-  <!-- bootstrap Theme CSS -->
-  <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-theme.min.css">
-  <!-- FullPage CSS-->
-  <link rel="stylesheet" href="assets/fullpage/jquery.fullpage.min.css">
-  <!-- Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Exo|Shrikhand" rel="stylesheet">
-  <!-- Style CSS -->
-  <link rel="stylesheet" href="assets/css/style.css">
-
 </head>
 <body>
 
-  <nav id="menu" class="navbar navbar-fixed-top navbar-inverse">
-    <div class="container-fluid">
-      <div class="navbar-header">
-        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-navbar-collapse" aria-expanded="false">
-          <span class="sr-only">Página Mobile</span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </button>
-
-        <a class="navbar-brand" href="#home">Caio de Freitas</a>
-      </div>
-
-      <div class="collapse navbar-collapse" id="bs-navbar-collapse">
-        <ul class="nav navbar-nav pull-right">
-          <li data-menuanchor="home">       <a href="#home">Home</a></li>
-          <li data-menuanchor="knowledge">  <a href="#knowledge">Conhecimentos</a></li>
-          <li data-menuanchor="portfolio">  <a href="#portfolio ">Portfolio</a></li>
-          <li data-menuanchor="contact">    <a href="#contact">Contato</a></li>
-          <li> <a><img alt="Brazil" src="assets/img/Brazil.png"></a></li>
-          <li> <a><img alt="USA" src="assets/img/USA.png"></a></li>
-        </ul>
-      </div>
-    </div>
-  </nav>
-
-  <div id="fullpage">
-
-    <section id="home" data-anchor="home">
-      <div class="container-fluid">
-        <div class="row">
-          <div class="col-sm-12 col-sm-offset-1">
-            <h1 class="page-header">Sobre</h1>
-
-            <div class="col-sm-5">
-              <p class="text-justify">
-                Olá! me chamo Caio tenho 21 anos sou analista de sistemas,
-                desenvolvedor Web e programador JAVA - PHP, apaixonado por games,
-                quadrinhos e cultura pop em geral.  Atualmente moro em
-                Caraguatatuba no litoral norte de Sao Paulo, mas tenho planos de
-                morar em Curitiba.
-              </p>
-
-              <p class="text-justify">
-                Iniciei nesse mundo louco (só que não) dos códigos aos 15
-                anos, mas já tinha interesse na  ́area da computação desde os 8.
-                Minha primeira formação foi aos 16 com o curso Informática
-                para internet pelo IFSP (Instituto Federal de  São  Paulo).
-                Aos 19 comecei a faculdade em Analise  e  Desenvolvimento de
-                sistemas, também pelo IFSP (e vou me formar logo mais).
-              </p>
-            </div>
-
-            <div class="col-sm-4 col-sm-offset-1">
-              <img class="img-responsive img-circle" src="assets/img/I.jpeg" alt="Image">
-            </div>
-
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section data-anchor="knowledge">
-      <div class="container-fluid">
-        <div class="row">
-          <div class="col-sm-11 col-sm-offset-1">
-            <h1 class="page-header">Conhecimentos</h1>
-
-            <div class="col-sm-5">
-
-              <p class="text-justify">
-                Aqui são algumas das tecnologias que utilizo no meu dia-a-dia:
-              </p>
-
-            </div>
-
-            <div class="col-sm-2 col-sm-offset-1">
-              <img class="img-responsive" alt="Image" src="assets/img/Rlogo.png">
-              <img class="img-responsive" alt="Image" src="assets/img/java.png">
-              <img class="img-responsive" alt="Image" src="assets/img/mysql.png">
-            </div>
-
-            <div class="col-sm-2 col-sm-offset-1">
-              <img class="img-responsive" alt="Image" src="assets/img/html-css-javascript.png">
-              <img class="img-responsive" alt="Image" src="assets/img/php.png">
-              <img class="img-responsive" alt="Image" src="assets/img/SQLServer.png">
-            </div>
-
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section data-anchor="portfolio">
-      <div class="container-fluid">
-        <div class="row">
-          <div class="col-sm-10">
-            <h1 class="page-header">Portfolio</h1>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section data-anchor="contact">
-      <div class="container-fluid">
-        <div class="row">
-          <div class="col-sm-10">
-            <h1 class="page-header">Contato</h1>
-          </div>
-        </div>
-      </div>
-    </section>
-
-  </div>
-
-  <!-- Jquery -->
-  <script type="text/javascript" src="assets/Jquery/jquery-1.12.4.min.js"></script>
-  <!-- BootStrap Javascript -->
-  <script src="assets/bootstrap/js/bootstrap.min.js"></script>
-  <!-- scrollOverflow -->
-  <script type="text/javascript" src="assets/fullpage/scrolloverflow.min.js"></script>
-  <!-- Jquery Fullpage -->
-  <script src="assets/fullpage/jquery.fullpage.min.js"></script>
-  <!-- My Script -->
-  <script type="text/javascript">
-    $(document).ready(function () {
-      $("#fullpage").fullpage({
-        anchors: ['home', 'knowledge', 'portfolio', 'contact'],
-        sectionsColor: ['#FF4500', '#f2f2f2', '#6E8B3D', '#FF4500'],
-        sectionSelector: 'section',
-        fixedElements: 'nav',
-        menu: "#menu",
-        css3: true,
-        scrollingSpeed: 1000,
-        scrollOverflow: true,
-      });
-    });
-  </script>
   <!-- Google Analytics -->
   <script type="text/javascript">
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -173,6 +20,22 @@
 
   ga('create', 'UA-87011181-1', 'auto');
   ga('send', 'pageview');
+
+  </script>
+
+  <script type="text/javascript">
+
+    if (navigator.browserLanguage)
+      var language = navigator.browserLanguage;
+    else if (navigator.language)
+      var language = navigator.language;
+
+
+
+    if (language == 'pt-BR' || language == 'pt')
+      location.href="br/index.html";
+    else
+      location.href="en/index.html";
 
   </script>
 
