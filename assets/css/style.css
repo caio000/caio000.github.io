@@ -51,6 +51,13 @@ p {
 
 #section-portfolio .thumbnail {
   border-radius: 0px;
+  height: 400px;
+}
+
+#section-portfolio .thumbnail .btn-position {
+  position: absolute;
+  top: 90%;
+  left: 0%;
 }
 
 #section-portfolio img {
