@@ -24,7 +24,7 @@
 </head>
 <body>
 
-  <nav id="menu" class="navbar navbar-fixed-top navbar-inverse">
+  <nav id="menu" class="navbar navbar-inverse navbar-fixed-top navbar-custom">
     <div class="container-fluid">
       <div class="navbar-header">
         <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-navbar-collapse" aria-expanded="false">
@@ -149,12 +149,6 @@
                   possam participar de todo o planejamento do Plano Diretor.
                 </p>
               </div>
-
-              <div class="col-sm-12 btn-position">
-                <a class="btn btn-info btn-block" href="http://www.caraguatatuba.sp.gov.br/planodiretor/" target="_blank">
-                  Veja! <i class="fa fa-arrow-right" aria-hidden="true"></i>
-                </a>
-              </div>
             </div>
 
             <div class="col-sm-4 thumbnail">
@@ -168,12 +162,6 @@
                   ferramenta para público.
                 </p>
               </div>
-
-              <div class="col-sm-12 btn-position">
-                <a class="btn btn-info btn-block" href="http://www.caraguatatuba.sp.gov.br/reciclacaragua/" target="_blank">
-                  Veja! <i class="fa fa-arrow-right" aria-hidden="true"></i>
-                </a>
-              </div>
             </div>
 
             <div class="col-sm-4 thumbnail">
@@ -186,8 +174,16 @@
                   Disponibilizando para a empresa um controle de conteúdos.
                 </p>
               </div>
-              <div class="col-sm-12 btn-position">
-                <a class="btn btn-info btn-block" href="http://tru-valubuilders.com/" target="_blank">Veja! <i class="fa fa-arrow-right" aria-hidden="true"></i></a>
+            </div>
+
+            <div class="col-sm-4 thumbnail">
+              <img src="../assets/img/caragua.png" alt="Image" title="test">
+              <div class="caption">
+                <h3>GeoProp</h3>
+                <p>
+                  O GeoProp é uma aplicação desenvolvida para mapear todos os
+                  pŕedios da prefeitura municipal de Caraguatatuba.
+                </p>
               </div>
             </div>
 
@@ -200,22 +196,22 @@
       <div class="container-fluid">
         <div class="row">
           <div class="col-sm-11 col-sm-offset-1">
-            <h1 class="page-header">Contact</h1>
+            <h1 class="page-header">Contato</h1>
 
             <div class="col-sm-3">
-              <a class="btn btn-default" target="_blank" href="https://github.com/caio000">
+              <a class="btn btn-default btn-block" target="_blank" href="https://github.com/caio000">
                 <i class="fa fa-github fa-4x" aria-hidden="true"><p>GitHub</p></i>
               </a>
             </div>
 
             <div class="col-sm-3">
-              <a class="btn btn-primary" target="_blank" href="https://www.linkedin.com/in/caio-de-freitas-adriano-b7803092">
+              <a class="btn btn-primary btn-block" target="_blank" href="https://www.linkedin.com/in/caio-de-freitas-adriano-b7803092">
                 <i class="fa fa-linkedin-square fa-4x" aria-hidden="true"><p>LinkedIn</p></i>
               </a>
             </div>
 
             <div class="col-sm-3">
-              <a class="btn btn-danger" href="mailto:caiof.adriano@hotmail.com">
+              <a class="btn btn-danger btn-block" href="mailto:caiof.adriano@hotmail.com">
                 <i class="fa fa-envelope fa-4x" aria-hidden="true">
                   <p>Email</p>
                   <p>caiof.adriano@hotmail.com</p>
@@ -224,7 +220,7 @@
             </div>
 
             <div class="col-sm-3">
-              <a class="btn btn-success">
+              <a class="btn btn-success btn-block">
                 <i class="fa fa-whatsapp fa-4x" aria-hidden="true">
                   <p>WhatsApp</p>
                   <p>(12)9.9181-8501</p>
@@ -252,10 +248,12 @@
     $(document).ready(function () {
       $("#fullpage").fullpage({
         anchors: ['home', 'knowledge', 'portfolio', 'contact'],
-        sectionsColor: ['#FF4500', '#F5F5F5', '#4BBFC3', 'whitesmoke'],
+        sectionsColor: ['#FF4500', '#F5F5F5', 'rgb(51,51,51)', 'whitesmoke'],
         sectionSelector: 'section',
         fixedElements: 'nav',
         menu: "#menu",
+        paddingTop: '2.5em',
+        paddingBottom: '1em',
         css3: true,
         scrollingSpeed: 1000,
         scrollOverflow: true,
