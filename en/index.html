@@ -16,21 +16,15 @@
   <link rel="stylesheet" href="../assets/font-awesome/css/font-awesome.min.css">
   <!-- FullPage CSS-->
   <link rel="stylesheet" href="../assets/fullpage/jquery.fullpage.min.css">
-  <!-- Style CSS -->
-  <link rel="stylesheet" href="../assets/css/style.css">
   <!-- Fonts -->
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Exo|Shrikhand">
-
-  <style>
-    .thumbnail{
-      height: 380px;
-    }
-  </style>
+  <!-- Style CSS -->
+  <link rel="stylesheet" href="../assets/css/style.css">
 
 </head>
 <body>
 
-  <nav id="menu" class="navbar navbar-fixed-top navbar-inverse">
+  <nav id="menu" class="navbar navbar-inverse navbar-fixed-top navbar-custom">
     <div class="container-fluid">
       <div class="navbar-header">
         <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-navbar-collapse" aria-expanded="false">
@@ -40,15 +34,15 @@
           <span class="icon-bar"></span>
         </button>
 
-        <a class="navbar-brand" href="#home">Caio de Freitas</a>
+        <!-- <a class="navbar-brand" href="#home">Caio de Freitas Adriano</a> -->
       </div>
 
       <div class="collapse navbar-collapse" id="bs-navbar-collapse">
         <ul class="nav navbar-nav pull-right">
           <li data-menuanchor="home">       <a href="#home">Home</a></li>
-          <li data-menuanchor="knowledge">  <a href="#knowledge">Conhecimentos</a></li>
+          <li data-menuanchor="knowledge">  <a href="#knowledge">Knowledge</a></li>
           <li data-menuanchor="portfolio">  <a href="#portfolio ">Portfolio</a></li>
-          <li data-menuanchor="contact">    <a href="#contact">Contato</a></li>
+          <li data-menuanchor="contact">    <a href="#contact">Contact</a></li>
           <li> <a href="../br/index.html"><img alt="Brazil" src="../assets/img/Brazil.png"></a></li>
           <li> <a href="../en/index.html"><img alt="USA" src="../assets/img/USA.png"></a></li>
         </ul>
@@ -61,14 +55,13 @@
     <section id="section-home" data-anchor="home">
       <div class="container-fluid">
         <div class="row">
-          <div class="col-sm-11 col-sm-offset-1">
+          <div class="col-sm-12 col-sm-offset-1">
             <h1 class="page-header">About me</h1>
-
             <div class="col-sm-5">
 
               <p class="text-justify">
-                Hey!! My name is Caio 21 years old and software developer, JAVA
-                and PHP, falling in love by games, comic books and pop culture.
+                Hey!! My name is Caio 21 years old Im full stack, JAVA, PHP and Javascript
+                falling in love by games, comic books and pop culture.
                 Today I live in Caraguatatuba north coast of São Paulo, but I have
                 plans to moveout to Curitiba.
               </p>
@@ -79,9 +72,8 @@
                 8 years old. My first training was at 16 with the IT course for
                 internet by the IFSP (Federal Institute of São Paulo). At 19 I
                 started the college in Systems Analysis and Development, also by
-                the IFSP (and I will graduate soon).
+                the IFSP.
               </p>
-
             </div>
 
             <div class="col-sm-4 col-sm-offset-1">
@@ -98,13 +90,10 @@
         <div class="row">
           <div class="col-sm-11 col-sm-offset-1">
             <h1 class="page-header">Knowledge</h1>
-
-            <div class="col-sm-5">
-
+            <div class="col-sm-12">
               <p class="text-justify">
-                Some tecnologies I use in my projects.
+                Some tecnologies I use in my work days.
               </p>
-
             </div>
 
             <div class="col-sm-2 col-sm-offset-1">
@@ -114,11 +103,22 @@
             </div>
 
             <div class="col-sm-2 col-sm-offset-1">
-              <img class="img-responsive" alt="Image" src="../assets/img/html-css-javascript.png">
-              <img class="img-responsive" alt="Image" src="../assets/img/php.png">
-              <img class="img-responsive" alt="Image" src="../assets/img/SQLServer.png">
+              <img class="img-responsive" alt="HTML, CSS, javascript" src="../assets/img/html-css-javascript.png">
+              <img class="img-responsive" alt="PHP" src="../assets/img/php.png">
+              <img class="img-responsive" alt="SQL Server" src="../assets/img/SQLServer.png">
             </div>
 
+            <div class="col-sm-2 col-sm-offset-1">
+              <img class="img-responsive" src="../assets/img/codeigniter-logo.png" alt="codeigniter logo">
+              <img class="img-responsive" src="../assets/img/angularjs.png" alt="Angular JS">
+              <img class="img-responsive" src="../assets/img/bootstrap.png" alt="bootstrap-logo">
+            </div>
+
+            <div class="col-sm-2 col-sm-offfset-1">
+              <img class="img-responsive" src="../assets/img/git-logo.png" alt="git logo">
+              <img class="img-responsive" src="../assets/img/laravel-logo.png" alt="laravel logo">
+              <img class="img-responsive" src="../assets/img/hibernate-logo.png" alt="hibernate logo">
+            </div>
           </div>
         </div>
       </div>
@@ -128,69 +128,63 @@
       <div class="container-fluid">
         <div class="row">
 
-          <div style="height:10%;"></div>
-
           <div class="col-sm-11 col-sm-offset-1">
             <h1 class="page-header">Portfolio</h1>
-            <p>Here are the last three projects developed</p>
+            <p>Here are a short description of the main project I was worked:</p>
 
             <div class="col-sm-4 thumbnail">
               <img src="../assets/img/caragua.png" alt="Image" title="Prefeitura de Caraguá">
               <div class="caption">
-                <h3>Plano Diretor</h3>
+                <h3>Master Plan</h3>
                 <p>
-                  Hotsite of the "Plano Diretor" that is under discussion in
-                  Caraguatatuba. Providing a space for people to participate in
-                  all planning of the same.
+                  The master plan hotsite has been discussed in Caraguatatuba.
+                  Made available a space for people discuss the Master plan.
                 </p>
-
-                <br><br>
-
-                <p>
-                  <a class="btn btn-info col-sm-3" href="http://www.caraguatatuba.sp.gov.br/planodiretor/" target="_blank">
-                    See! <i class="fa fa-arrow-right" aria-hidden="true"></i>
-                  </a>
-                </p>
-
               </div>
             </div>
 
-            <div class="col-sm-4 thumbnail" style="height: 380px">
+            <div class="col-sm-4 thumbnail">
               <img src="../assets/img/caragua.png" alt="Image" title="Prefeitura de Caraguá">
               <div class="caption">
                 <h3>ReciclaCaragua</h3>
                 <p>
-                  Project for opening of occurrence, where all the units of the
-                  city hall can notify the cooperatives to remove recyclable
-                  material. And in the future make this tool available to
-                  the public.
+                  The project to open the occurrence, when all the public buildings
+                  can notificate the cooperatives to remove the the recycleble meterial.
                 </p>
-
-                <br>
-
-                <p>
-                  <a class="btn btn-info col-sm-3" href="http://www.caraguatatuba.sp.gov.br/reciclacaragua/" target="_blank">
-                    See! <i class="fa fa-arrow-right" aria-hidden="true"></i>
-                  </a>
-                </p>
-
               </div>
             </div>
 
             <div class="col-sm-4 thumbnail">
-              <img src="../assets/img/tru-valu.png" alt="Image" title="test">
+              <img src="../assets/img/tru-valu.png" alt="Image" title="tru-valu">
               <div class="caption">
-                <h3>Title</h3>
+                <h3>Tru-Valu Builders</h3>
                 <p>
-                  Created a portfolio for the American company Tru-Valu with
-                  the aim of showing some work done by the company. Providing
-                  the company with a content control.
+                  Created a portfolio to american company Tru-Valu with objective
+                  to show some work done.
                 </p>
+              </div>
+            </div>
 
-                <br><br>
-
+            <div class="col-sm-4 thumbnail">
+              <img src="../assets/img/caragua.png" alt="Image" title="Prefeitura de Caraguatatuba">
+              <div class="caption">
+                <h3>GeoProp</h3>
                 <p>
-                  <a class="btn btn-info col-sm-3" href="http://tru-valubuilders.com/">See! <i class="fa fa-arrow-right" aria-hidden="true"></i></a>
+                  The GeoProp is an application developed to map all the public
+                  builders of Caraguatatuba
+                </p>
+              </div>
+            </div>
+
+            <div class="col-sm-4 thumbnail">
+              <img src="../assets/img/caragua.png" alt="Image" title="Prefeitura de Caraguatatuba">
+              <div class="caption">
+                <h3>Caraguá Dengue</h3>
+                <p>
+                  The Caraguá Dengue is an application developed to map all the
+                  occurrence of Dengue in the city of Caraguatatuba. The application
+                  can gerate interactive maps to trace the strategy to combat dengue
+                  mosquito.
                 </p>
               </div>
             </div>
@@ -207,31 +201,29 @@
             <h1 class="page-header">Contact</h1>
 
             <div class="col-sm-3">
-              <a class="btn btn-default" target="_blank" href="https://github.com/caio000">
+              <a class="btn btn-default btn-block" target="_blank" href="https://github.com/caio000">
                 <i class="fa fa-github fa-4x" aria-hidden="true"><p>GitHub</p></i>
               </a>
             </div>
 
             <div class="col-sm-3">
-              <a class="btn btn-primary" target="_blank" href="https://www.linkedin.com/in/caio-de-freitas-adriano-b7803092">
+              <a class="btn btn-primary btn-block" target="_blank" href="https://www.linkedin.com/in/caio-de-freitas-adriano-b7803092">
                 <i class="fa fa-linkedin-square fa-4x" aria-hidden="true"><p>LinkedIn</p></i>
               </a>
             </div>
 
             <div class="col-sm-3">
-              <a class="btn btn-danger" href="mailto:caiof.adriano@hotmail.com">
+              <a class="btn btn-danger btn-block" href="mailto:caiof.adriano@hotmail.com">
                 <i class="fa fa-envelope fa-4x" aria-hidden="true">
-                  <p>Email</p>
                   <p>caiof.adriano@hotmail.com</p>
                 </i>
               </a>
             </div>
 
             <div class="col-sm-3">
-              <a class="btn btn-success">
+              <a class="btn btn-success btn-block">
                 <i class="fa fa-whatsapp fa-4x" aria-hidden="true">
-                  <p>WhatsApp</p>
-                  <p>(12)9.9181-8501</p>
+                  <p>55+ (12)9.9181-8501</p>
                 </i>
               </a>
             </div>
@@ -256,15 +248,15 @@
     $(document).ready(function () {
       $("#fullpage").fullpage({
         anchors: ['home', 'knowledge', 'portfolio', 'contact'],
-        sectionsColor: ['#FF4500', '#F5F5F5', '#4BBFC3', 'whitesmoke'],
+        sectionsColor: ['#FF4500', '#F5F5F5', 'rgb(51,51,51)', 'whitesmoke'],
         sectionSelector: 'section',
         fixedElements: 'nav',
         menu: "#menu",
+        paddingTop: '2.5em',
+        paddingBottom: '1em',
         css3: true,
         scrollingSpeed: 1000,
-        autoScrolling: true,
         scrollOverflow: true,
-        responsive: 992,
       });
     });
   </script>
